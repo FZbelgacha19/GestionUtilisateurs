@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --swatch_1: #f0f1f6;
+  --swatch_2: #9f9fa0;
+  --swatch_3: #110f0e;
+  --swatch_4: #615957;
+  --swatch_5: #e4cfac;
+  --swatch_6: #d86a1e;
+  --swatch_7: #68948b;
+  --swatch_8: #f1a249;
+}
+
+.card{
+    border-color: var(--swatch_3);
+}
+.card-header {
+  background-color: var(--swatch_5);
+  color: var(--black);
+}
+
+.startBorder{
+    border-left: 1px solid var(--swatch_8);
+}
+.card-body>p {
+  color: var(--swatch_4);
+}
+
+
+.card-footer {
+  background-color: var(--white);
+}
+
+
+.btn-warning, .btn-warning:hover, .btn-warning:focus, .btn-warning:disabled {
+  background-color: var(--swatch_8);
+  color: var(--black);
+}
+
+.btn-danger, .btn-danger:hover, .btn-danger:focus, .btn-danger:disabled {
+  background-color: var(--swatch_3);
+  color: var(--white);
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:disabled {
+  background-color: var(--swatch_7);
+  color: var(--white);
+}
+.btn{
+    border: 0px;
+}
+
+.decorationImg{
+    width : inherit;
+}
+
+.modal-header{
+    background-color: var(--swatch_3);
+    color: var(--swatch_8);
+}
